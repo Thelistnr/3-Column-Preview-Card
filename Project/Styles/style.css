@@ -1,0 +1,130 @@
+*{
+    font-weight: 400;
+    color: white;
+}
+body{
+    font-size: 15;
+}
+
+.flex-container{
+    display: flex;
+    width: max-content;
+    padding-top: 5rem;
+}
+.sedans{
+    background-color:  hsl(31, 77%, 52%);
+    border: 1px;
+    padding: 2rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    max-width: 12rem;
+    min-height: 25rem;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    border: 1px;
+    padding: 2rem;
+    max-width: 12rem;
+    min-height: 25rem;
+
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border: 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 2rem;
+    max-width: 12rem;
+    min-height: 25rem;
+}
+button{
+    border: solid;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    border-color: white;
+    text-align: center;
+    font-size: small;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 8rem;
+}
+.three{
+    color: hsl(31, 77%, 52%);
+}
+.one{
+    color: hsl(184, 100%, 22%);
+}
+.two{
+color: hsl(179, 100%, 13%);
+}
+h2{
+    font-weight: 800;
+}
+button:hover{
+    background-color: transparent;
+}
+a:hover{
+    color: white;
+}
+
+@media all and (max-width:375px){
+    *{
+        font-weight: 400;
+    }
+    body{
+        font-size: x-large;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .sedans{
+        padding: 3rem;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+        max-width: 16rem;
+        min-height: 5rem;
+    }
+    .suvs{
+        background-color: hsl(184, 100%, 22%);
+        border: 1px;
+        padding: 3rem;
+        max-width: 16rem;
+        min-height: 5rem;
+    
+    }
+    .luxury{
+        padding: 3rem;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 0px;
+        max-width: 16rem;
+        min-height: 5rem;
+    }
+    button{
+        border-radius: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position: relative;
+        border-color: white;
+        text-align: center;
+        font-size: medium;
+        background-color: white;
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+    h2{
+        font-weight: 400;
+    }
+    .attribution{
+        font-size: 20px;
+    }
+}
